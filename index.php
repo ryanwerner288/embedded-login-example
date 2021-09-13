@@ -134,7 +134,7 @@
 	window.onload = debuglog;
 		function debuglog() {
 			const ancestors = location.ancestorOrigins;
-		alert(ancestors);
+		console.log(ancestors);
 		}
 	function onLogin(identity) {
 		
