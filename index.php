@@ -26,7 +26,7 @@
 	<link href="https://<?php echo getenv('SALESFORCE_COMMUNITY_URL');?>/servlet/servlet.loginwidgetcontroller?type=css" rel="stylesheet" type="text/css" />
     <script src="https://<?php echo getenv('SALESFORCE_COMMUNITY_URL');?>/servlet/servlet.loginwidgetcontroller?type=javascript_widget" async defer></script>
 	  
-	  <meta name="salesforce-allowed-domains" content="https://rwdev10-salesportal.cs64.force.com/">
+	  <meta name="salesforce-allowed-domains" content="ryanwerner7052888.herokuapp.com">
   </head>
   
   <body>
@@ -130,7 +130,11 @@
 	
 	<script>
 
-
+	window.onload = debuglog;
+		function debuglog() {
+			const ancestors = location.ancestorOrigins;
+		alert(ancestors);
+		}
 	function onLogin(identity) {
 		
 		var targetDiv = document.querySelector(SFIDWidget.config.target);	
