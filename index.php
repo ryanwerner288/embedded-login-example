@@ -26,7 +26,7 @@
 	<link href="https://<?php echo getenv('SALESFORCE_COMMUNITY_URL');?>/servlet/servlet.loginwidgetcontroller?type=css" rel="stylesheet" type="text/css" />
     <script src="https://<?php echo getenv('SALESFORCE_COMMUNITY_URL');?>/servlet/servlet.loginwidgetcontroller?type=javascript_widget" async defer></script>
 	  
-	  <meta name="salesforce-allowed-domains" content="https://ryanwerner7052888.herokuapp.com">
+	  <meta name="salesforce-allowed-domains" content="https://rwdev10-salesportal.cs64.force.com/">
   </head>
   
   <body>
