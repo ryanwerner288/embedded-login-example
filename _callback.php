@@ -5,6 +5,7 @@
 	<meta name="salesforce-mode" content="<?php echo getenv('SALESFORCE_MODE');?>-callback">
 	<meta name="salesforce-save-access-token" content="true">
 	<meta name="salesforce-allowed-domains" content="<?php echo getenv('SALESFORCE_HEROKUAPP_URL');?>">
+	<meta name="salesforce-cache-max-age" content="0"/>
 	<script src="https://<?php echo getenv('SALESFORCE_COMMUNITY_URL');?>/servlet/servlet.loginwidgetcontroller?type=javascript_widget" async defer></script>
 </head> 
 <body></body>    
