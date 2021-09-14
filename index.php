@@ -151,18 +151,7 @@
 	function onLogout() {
 		SFIDWidget.init();
 		
-		var aero = document.getElementById("aero_link");
-		aero.href = "#";
-		aero.innerHTML = 'Login for more info';
-
-		var reactor = document.getElementById("reactor_link");
-		reactor.href = "#";
-		reactor.innerHTML = 'Login for more info';
-
-		var chemex = document.getElementById("chemex_link");
-		chemex.href = "#";
-		chemex.innerHTML = 'Login for more info';
-
+		
 	}
 
 
