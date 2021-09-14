@@ -130,6 +130,10 @@ header .logo-text {
 .element-left {
 
 }
+
+.sfid-button sfid-wide sfid-mb16 {
+	background-color: #000000 !important;	
+}
 .element-middle {
   text-align: center;
 }
