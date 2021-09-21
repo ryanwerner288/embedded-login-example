@@ -32,7 +32,7 @@
   
   <body>
 	  <center>
-  	<div id="sign-in-link" style="top: 20px;width:300px"></div>
+  	<div id="sign-in-link" style="top: 20px;width:250px"></div>
 	  </center>
     <header>
       <div class="masthead-elements-row-1">
