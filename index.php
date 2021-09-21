@@ -31,7 +31,9 @@
   </head>
   
   <body>
-  	<div id="sign-in-link" style="position: absolute; top: 20px;right: 20px;"></div>
+	  <center>
+  	<div id="sign-in-link" style="top: 20px;"></div>
+	  </center>
     <header>
       <div class="masthead-elements-row-1">
         <div class="element-left"></div>
